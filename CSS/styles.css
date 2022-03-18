@@ -74,3 +74,29 @@ body {
   margin: 0%;
   height: 48px;
 }
+
+.protest {
+  background-image: url("https://i.imgur.com/0CE1S2d.jpg");
+  min-height: 700px;
+
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+
+/* .defund {
+ 
+} */
+
+.center-btn {
+  text-align: center;
+  margin-top: 30px;
+}

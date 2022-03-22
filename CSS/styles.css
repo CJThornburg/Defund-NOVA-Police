@@ -142,7 +142,6 @@ body {
   /* Column | row */
 }
 
-/* carousel  */
 .team {
   /* color: #fdfcea; */
 
@@ -154,6 +153,14 @@ body {
   font-size: 8rem;
   font-weight: bold;
 }
+
+@media (max-width: 860px) {
+  .team {
+    font-size: 4rem;
+  }
+}
+
+/* carousel  */
 
 .protest {
   justify-content: center;
@@ -187,6 +194,22 @@ body {
 /* slides 2-5 */
 .left-slide-spacing {
   padding-left: 25%;
+}
+
+@media (max-width: 860px) {
+  .first-slide-title {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+
+  .first-slide-info {
+    font-size: 1.3rem;
+
+    margin-bottom: 30px;
+  }
+  .left-slide-spacing {
+    padding-left: 17%;
+  }
 }
 
 /* coalition page */

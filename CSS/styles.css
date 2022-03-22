@@ -20,8 +20,12 @@ body {
   background-color: bisque;
 }
 
+.navbar {
+  color: black;
+}
 .green-nav {
-  background-color: #008036;
+  background-color: #e6f0d9;
+  color: black;
   /* background-color e6f0d9?  need to make text darker */
 }
 
@@ -46,6 +50,9 @@ body {
   margin: 50px 10px 45px;
 }
 
+.navbar {
+  font-weight: bold;
+}
 /* 
 @media (max-width: 600px) and (min-width: 450px) {
   .hook-btn1 {
@@ -173,6 +180,10 @@ body {
   margin-bottom: 30px;
 }
 
+.dark-text {
+  color: black;
+  font-weight: bold;
+}
 /* slides 2-5 */
 .left-slide-spacing {
   padding-left: 25%;
@@ -190,4 +201,17 @@ body {
 
 .light-light-green {
   background-color: #fdfdf5;
+}
+
+.header-text {
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn {
+  background-color: #740202;
 }
